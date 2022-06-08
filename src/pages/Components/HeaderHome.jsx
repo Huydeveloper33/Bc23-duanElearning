@@ -23,6 +23,12 @@ export default function HeaderHome(props) {
       <li className="nav-item">
         <NavLink className="nav-link" to="/login">Đăng nhập</NavLink>
       </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" to="/login">Đăng nhập</NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" to="/login">Đăng nhập</NavLink>
+      </li>
     </ul>
    
   </div>

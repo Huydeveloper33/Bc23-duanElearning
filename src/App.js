@@ -6,7 +6,8 @@ import { HomePage } from './pages/HomePage/HomePage';
 import { createBrowserHistory } from 'history';
 import Register from './pages/Register/Register';
 import Courses from './pages/Courses/Courses';
-import { PersonalInfo } from "./pages/PersonalInfo/PersonalInfo.jsx";
+import CourseList from './pages/CourseList/CourseList';
+// import { PersonalInfo } from "./pages/PersonalInfo/PersonalInfo.jsx";
 
 export const history = createBrowserHistory()
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <HomePage exact path='/' component='HomePage'/>
       <Register exact path='/register' component='Register'/>
       <Courses exact path='/courses' component='Courses'/>
-      <PersonalInfo/>
+      <CourseList exact path='/courselist' component='CourseList'/>
+      {/* <PersonalInfo exact path='/info' component='PersonalInfo'/> */}
     </Switch>
   </Router>
   );
