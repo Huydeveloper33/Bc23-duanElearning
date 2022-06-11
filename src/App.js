@@ -7,7 +7,8 @@ import { createBrowserHistory } from 'history';
 import Register from './pages/Register/Register';
 import Courses from './pages/Courses/Courses';
 import CourseList from './pages/CourseList/CourseList';
-// import { PersonalInfo } from "./pages/PersonalInfo/PersonalInfo.jsx";
+import CourseDetail from './pages/CourseDetail/CourseDetail';
+
 
 export const history = createBrowserHistory()
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <Register exact path='/register' component='Register'/>
       <Courses exact path='/courses' component='Courses'/>
       <CourseList exact path='/courselist' component='CourseList'/>
-      {/* <PersonalInfo exact path='/info' component='PersonalInfo'/> */}
+      <CourseDetail exact path='/coursedetail' component='CourseDetail'/>
+   
     </Switch>
   </Router>
   );

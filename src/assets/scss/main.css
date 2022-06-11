@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #29303b;
+  background-color: #fff;
+  line-height: 1.43; }
+
+.myNavBar .navbar-brand img {
+  width: 100px; }
+
+/*# sourceMappingURL=main.css.map */

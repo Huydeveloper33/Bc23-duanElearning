@@ -2,7 +2,7 @@
 
 
 @import 'Base/reset';
-@import'../../pages/CourseList/CourseList.jsx';
+
 
 @import 'Helper/mixin';
 @import'Helper/extend';
@@ -12,7 +12,6 @@
 @import 'Layout/header';
 
 @import'Component/button';
+@import'../../pages/CourseList/CourseList.scss'
 
 
-
-@import'../../pages/Components/HeaderHome.jsx';

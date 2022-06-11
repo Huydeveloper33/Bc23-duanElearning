@@ -1,0 +1,91 @@
+.smart-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  .smart-bar-content {
+    background-color: #5624d0;
+    padding: 10px;
+    .smart-bar-button {
+      padding: 50px;
+    }
+  }
+}
+.col-md-6-header {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+
+  .row {
+    .categories {
+      padding: 20px;
+    }
+    .input-search{
+      padding: 20px;
+
+    }
+  }
+}
+.footer {
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      font-size: 15px;
+      color: #000;
+      margin: auto;
+      padding: 10px;
+      &:hover {
+        text-decoration: none;
+        color: purple;
+      }
+    }
+  }
+  .container{
+    padding: 15px;
+    .course-detail-card{
+        a{
+            text-decoration: none;
+            color: #6a6f73;
+            padding: 15px;
+            &:hover{
+                color: #1c1d1f;
+            }
+        }
+    }
+  }
+  .row-course-option{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    i{
+        // border-color: #6a6f73;
+        // border-radius: 50%;
+        margin: 10px;
+    }
+    
+  }
+  .card-topics{
+    padding: 15px;
+    a{
+        text-decoration: none;
+        color:#1c1d1f;
+        padding: 15px;
+    }
+  }
+  .instructors-popular{
+    padding: 20px;
+   h1{
+    font-size: 20px;
+   }
+  }
+  .all-courses-detail{
+    padding: 20px;
+    h1{
+        font-size: 30px;
+    }
+  }
+}
